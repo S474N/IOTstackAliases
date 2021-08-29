@@ -105,6 +105,7 @@ alias                  I='cd ~/IOTstack; ls'
 alias                  S='cd ~/IOTstack/services; ls'
 alias                  T='cd ~/IOTstack/.templates; ls'
 alias                  V='cd ~/IOTstack/volumes; ls'
+alias         aktualizuj='sudo apt update && sudo apt -y upgrade'
 
 DPS() {
    DPS_CMD="docker ps --format \"table {{.Names}}\t{{.RunningFor}}\t{{.Status}}\""
